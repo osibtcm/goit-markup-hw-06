@@ -306,8 +306,6 @@ display: block;
     border: none;
 }
 
-.mobile-btn {}
-
 .mobile-nav {
     margin-bottom: auto;
 }
@@ -317,8 +315,6 @@ display: block;
     flex-direction: column;
     gap: 40px;
 }
-
-.mobile-nav-item-list {}
 
 .mobile-nav-item-link {
     font-weight: 700;
@@ -340,10 +336,6 @@ display: block;
     gap: 24px;
     margin-bottom: 48px;
 }
-
-.mobile-addr-item {}
-
-.mobile-addr-item-list {}
 
 .mobile-addr-item-link {
     font-style: normal;
@@ -962,7 +954,7 @@ display: block;
                     margin-left: 16px;
                 }
         
-    .button-footer-form:hover .button-footer-form:focus,
+    .button-footer-form:hover .button-footer-form:focus
                 {
                 background-color: #404BBF;
                 }
