@@ -50,86 +50,72 @@
           </ul>
         </address>
       </div>
-      <div class="mobile-menu" data-modal>
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-clouse" data-modal-close>
-            <svg height="8" width="8" class="svg-icon-mobile-menu">
-              <use href="./images/icons2.svg#icon-close"></use>
+          <button class="mobile-menu-close">
+            <svg class="mobile-btn" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
-          <nav class="mobile-menu-nav">
-            <ul class="mobile-menu-nav-ul">
-              <li>
-                <a href="" class="mobile-menu-nav-link-start">Studio</a>
+          <nav class="mobile-nav">
+            <ul class="mobile-nav-item">
+              <li class="mobile-nav-item-list">
+                <a class="mobile-nav-item-link" href="./index.html">Studio</a>
               </li>
-              <li>
-                <a href="" class="mobile-menu-nav-link">Portfolio</a>
+              <li class="mobile-nav-item-list">
+                <a class="mobile-nav-item-link" href="">Portfolio</a>
               </li>
-              <li>
-                <a href="" class="mobile-menu-nav-link">Contacts</a>
+              <li class="mobile-nav-item-list">
+                <a class="mobile-nav-item-link" href="">Contacts</a>
               </li>
             </ul>
           </nav>
-          <address class="mobile-menu-address">
-            <ul class="mobile-menu-address-ul">
-              <li>
-                <a href="tel:+110001111111" class="mobile-menu-address-li-color"
+          <address class="mobile-addr">
+            <ul class="mobile-addr-item">
+              <li class="mobile-addr-item-list">
+                <a class="mobile-addr-item-link" href="tel:+110001111111"
                   >+11 (000) 111-11-11</a
                 >
               </li>
-              <li>
+              <li class="mobile-addr-item-list">
                 <a
+                  class="mobile-addr-item-link"
                   href="mailto:info@devstudio.com"
-                  class="mobile-menu-address-li"
                   >info@devstudio.com</a
                 >
               </li>
             </ul>
           </address>
-          <div class="mobile-social-div">
-            <ul class="mobile-social-ul">
-              <li>
-                <a href="" class="mobile-social-a">
-                  <svg width="24" height="24">
-                    <use
-                      href="./images/icons.svg#icon-instagram"
-                      class="svg-mobile-social"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="mobile-social-a">
-                  <svg width="24" height="24">
-                    <use
-                      href="./images/icons.svg#icon-twitter"
-                      class="svg-mobile-social"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="mobile-social-a">
-                  <svg width="24" height="24">
-                    <use
-                      href="./images/icons.svg#icon-facebook"
-                      class="svg-mobile-social"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="" class="mobile-social-a">
-                  <svg width="24" height="24">
-                    <use
-                      href="./images/icons.svg#icon-linkedin"
-                      class="svg-mobile-social"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <ul class="mobile-item-icon">
+            <li class="mobile-item-list-icon">
+              <a class="mobile-item-link-icon" href="">
+                <svg class="mobile-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-item-list-icon">
+              <a class="mobile-item-link-icon" href="">
+                <svg class="mobile-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-item-list-icon">
+              <a class="mobile-item-link-icon" href="">
+                <svg class="mobile-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-item-list-icon">
+              <a class="mobile-item-link-icon" href="">
+                <svg class="mobile-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -137,7 +123,7 @@
       <section class="order">
         <div class="container">
           <h1 class="order-head">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-order">Order Service</button>
+          <button type="button" class="button-order">Order Service></button>
         </div>
       </section>
       <section class="futures">
@@ -200,33 +186,6 @@
           <h2 class="team-head">Our Team</h2>
           <ul class="team-squad">
             <li class="team-list">
-              <picture>
-                <source
-                  srcset="
-                    ./images/mobile/img-1.jpg   1x,
-                    ./images/mobile/img-1@2.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                <source
-                  srcset="
-                    ./images/tablet/img-1.jpg   1x,
-                    ./images/tablet/img-1@2.jpg 2x
-                  "
-                  media="(max-width: 1157px)"
-                />
-                <source
-                  srcset="./images/img-3.jpg 1x, ./images/img-3.jpg 2x"
-                  media="(min-width: 1158px)"
-                />
-                <img
-                  src="./images/image1.jpg"
-                  alt="Marc Guerrero"
-                  width="264"
-                  height="260"
-                  class="comand-img"
-                />
-              </picture>
               <img
                 src="./images/image1.jpg"
                 alt="Marc Guerrero"
@@ -268,33 +227,6 @@
                 </ul>
               </div>
             </li>
-            <picture>
-              <source
-                srcset="
-                  ./images/mobile/img-2.jpg   1x,
-                  ./images/mobile/img-2@2.jpg 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <source
-                srcset="
-                  ./images/tablet/img-2.jpg   1x,
-                  ./images/tablet/img-2@2.jpg 2x
-                "
-                media="(max-width: 1157px)"
-              />
-              <source
-                srcset="./images/img-2.jpg 1x, ./images/img-2.jpg 2x"
-                media="(min-width: 1158px)"
-              />
-              <img
-                src="./images/img-2.jpg"
-                alt="photo-Mark Guerrero"
-                width="264"
-                height="260"
-                class="comand-img"
-              />
-            </picture>
             <li class="team-list">
               <img
                 src="./images/image2.jpg"
@@ -338,33 +270,6 @@
               </div>
             </li>
             <li class="team-list">
-              <picture>
-                <source
-                  srcset="
-                    ./images/mobile/img-3.jpg   1x,
-                    ./images/mobile/img-3@2.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                <source
-                  srcset="
-                    ./images/tablet/img-3.jpg   1x,
-                    ./images/tablet/img-3@2.jpg 2x
-                  "
-                  media="(max-width: 1157px)"
-                />
-                <source
-                  srcset="./images/img-1.jpg 1x, ./images/img-1.jpg 2x"
-                  media="(min-width: 1158px)"
-                />
-                <img
-                  src="./images/img-1.jpg"
-                  alt="photo-Camila Garcia"
-                  width="264"
-                  height="260"
-                  class="comand-img"
-                />
-              </picture>
               <img
                 src="./images/image3.jpg"
                 alt="Camila Garcia"
@@ -407,33 +312,6 @@
               </div>
             </li>
             <li class="team-list">
-              <picture>
-                <source
-                  srcset="
-                    ./images/mobile/img-4.jpg   1x,
-                    ./images/mobile/img-4@2.jpg 2x
-                  "
-                  media="(max-width: 767px)"
-                />
-                <source
-                  srcset="
-                    ./images/tablet/img-4.jpg   1x,
-                    ./images/tablet/img-4@2.jpg 2x
-                  "
-                  media="(max-width: 1157px)"
-                />
-                <source
-                  srcset="./images/img.jpg 1x, ./images/img.jpg 2x"
-                  media="(min-width: 1158px)"
-                />
-                <img
-                  src="./images/img.jpg"
-                  alt="photo-Daniel Wilson"
-                  width="264"
-                  height="260"
-                  class="comand-img"
-                />
-              </picture>
               <img
                 src="./images/image4.jpg"
                 alt="Daniel Wilson"
@@ -487,24 +365,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/mobile/pictures-1.jpg   1x,
-                      ./images/mobile/pictures-1@2.jpg 2x
+                      ./images/banking-app.jpg            1x,
+                      ./images/banking-app-desktop@2x.jpg 2x
                     "
-                    media="(max-width: 767px)"
+                    media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/tablet/pictures-1.jpg   1x,
-                      ./images/tablet/pictures-1@2.jpg 2x
+                      ./images/banking-app-tablet.jpg    1x,
+                      ./images/banking-app-tablet@2x.jpg 2x
                     "
-                    media="(max-width: 1157px)"
+                    media="(min-width: 768px)"
                   />
                   <source
-                    srcset="./images/photo-5.jpg 1x, ./images/photo-5.jpg 2x"
-                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/banking-app-mobile.jpg    1x,
+                      ./images/banking-app-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/image5.jpg"
+                    src="./images/banking-app.jpg"
                     alt="Banking App"
                     width="360"
                     height="300"
@@ -526,24 +407,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/mobile/pictures-2.jpg   1x,
-                      ./images/mobile/pictures-2@2.jpg 2x
+                      ./images/cashless-payment.jpg            1x,
+                      ./images/cashless-payment-desktop@2x.jpg 2x
                     "
-                    media="(max-width: 767px)"
+                    media="(min-width: 1158px)"
                   />
                   <source
                     srcset="
-                      ./images/tablet/pictures-2.jpg   1x,
-                      ./images/tablet/pictures-2@2.jpg 2x
+                      ./images/cashless-payment-tablet.jpg    1x,
+                      ./images/cashless-payment-tablet@2x.jpg 2x
                     "
-                    media="(max-width: 1157px)"
+                    media="(min-width: 768px)"
                   />
                   <source
-                    srcset="./images/photo-4.jpg 1x, ./images/photo-4.jpg 2x"
-                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/cashless-payment-mobile.jpg    1x,
+                      ./images/cashless-payment-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/image6.jpg"
+                    src="./images/cashless-payment.jpg"
                     alt="Cashless Payment"
                     width="360"
                     height="300"
@@ -565,24 +449,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/mobile/pictures-4.jpg   1x,
-                      ./images/mobile/pictures-4@2.jpg 2x
+                      ./images/meditation-app.jpg            1x,
+                      ./images/meditation-app-desktop@2x.jpg 2x
                     "
-                    media="(max-width: 767px)"
+                    media="(min-width: 1558px)"
                   />
                   <source
                     srcset="
-                      ./images/tablet/pictures-4.jpg   1x,
-                      ./images/tablet/pictures-4@2.jpg 2x
+                      ./images/meditation-app-tablet.jpg    1x,
+                      ./images/meditation-app-tablet@2x.jpg 2x
                     "
-                    media="(max-width: 1157px)"
+                    media="(min-width: 768px)"
                   />
                   <source
-                    srcset="./images/photo-2.jpg 1x, ./images/photo-2.jpg 2x"
-                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/meditation-app-mobile.jpg    1x,
+                      ./images/meditation-app-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/image7.jpg"
+                    src="./images/meditation-app.jpg"
                     alt="Meditation App"
                     width="360"
                     height="300"
@@ -604,24 +491,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/mobile/pictures-5.jpg   1x,
-                      ./images/mobile/pictures-5@2.jpg 2x
+                      ./images/taxi-service.jpg            1x,
+                      ./images/taxi-service-desktop@2x.jpg 2x
                     "
-                    media="(max-width: 767px)"
+                    media="(min-width: 1558px)"
                   />
                   <source
                     srcset="
-                      ./images/tablet/pictures-5.jpg   1x,
-                      ./images/tablet/pictures-5@2.jpg 2x
+                      ./images/taxi-service-tablet.jpg    1x,
+                      ./images/taxi-service-tablet@2x.jpg 2x
                     "
-                    media="(max-width: 1157px)"
+                    media="(min-width: 768px)"
                   />
                   <source
-                    srcset="./images/photo-1.jpg 1x, ./images/photo-1.jpg 2x"
-                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/taxi-service-mobile.jpg    1x,
+                      ./images/taxi-service-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/image8.jpg"
+                    src="./images/taxi-service.jpg"
                     alt="Taxi Service"
                     width="360"
                     height="300"
@@ -640,12 +530,35 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
-                <img
-                  src="./images/image9.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/screen-illustrations.jpg            1x,
+                      ./images/screen-illustrations-desktop@2x.jpg 2x
+                    "
+                    media="(min-width: 1558px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen-illustrations-tablet.jpg    1x,
+                      ./images/screen-illustrations-tablet@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/screen-illustrations-mobile.jpg    1x,
+                      ./images/screen-illustrations-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/screen-illustrations.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="portfolio-wrapper-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -662,24 +575,27 @@
                 <picture>
                   <source
                     srcset="
-                      ./images/mobile/pictures-5.jpg   1x,
-                      ./images/mobile/pictures-5@2.jpg 2x
+                      ./images/online-courses.jpg            1x,
+                      ./images/online-courses-desktop@2x.jpg 2x
                     "
-                    media="(max-width: 767px)"
+                    media="(min-width: 1558px)"
                   />
                   <source
                     srcset="
-                      ./images/tablet/pictures-5.jpg   1x,
-                      ./images/tablet/pictures-5@2.jpg 2x
+                      ./images/online-courses-tablet.jpg    1x,
+                      ./images/online-courses-tablet@2x.jpg 2x
                     "
-                    media="(max-width: 1157px)"
+                    media="(min-width: 768px)"
                   />
                   <source
-                    srcset="./images/photo-1.jpg 1x, ./images/photo-1.jpg 2x"
-                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/online-courses-mobile.jpg    1x,
+                      ./images/online-courses-mobile@2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
                   />
                   <img
-                    src="./images/image10.jpg"
+                    src="./images/online-courses.jpg"
                     alt="Online Courses"
                     width="360"
                     height="300"
